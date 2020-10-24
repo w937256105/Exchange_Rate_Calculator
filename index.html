@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exchange Rate Calculator</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div>
+        <img src="img/money.png" class="image">
+    </div>
+    <div class="tit">
+        <span>Exchange Rate Calcilator</span>
+    </div>
+    <div class="txt">
+        <span>Choose the currency and the amounts to get the exchange rate</span>
+    </div>
+
+    <div class="boat">
+        <div>
+            <select class="select" id="se1">
+                <option value="CNY">人民币</option>
+                <option value="USD">美元</option>
+                <option value="EUR">欧元</option>
+                <option value="JPY">日元</option>
+                <option value="GBP">英镑</option>
+            </select>
+        </div>
+        <div>
+            <input id="num1" value="1">
+        </div>
+    </div>
+    <div class="boat">
+        <div class="btn-exchange">
+            <button id="swap">交换</button>
+        </div>
+
+        <div>
+            <span id="nav"></span>
+        </div>
+    </div>
+    <div class="boat">
+        <div>
+            <select class="select" id="se2">
+                <option value="CNY">人民币</option>
+                <option value="USD" selected>美元</option>
+                <option value="EUR">欧元</option>
+                <option value="JPY">日元</option>
+                <option value="GBP">英镑</option>
+            </select>
+        </div>
+        <div>
+            <input value="1" id="num2">
+        </div>
+    </div>
+<script src="js/exchange.js"></script>
+</body>
+</html>
